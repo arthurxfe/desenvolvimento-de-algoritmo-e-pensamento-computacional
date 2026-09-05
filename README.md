@@ -1,1 +1,1 @@
-# Algoritmos-e-Pensamento-Computacional
+# desenvolvimento de algoritmo e pensamento computacional
