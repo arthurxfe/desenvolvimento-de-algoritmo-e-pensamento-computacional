@@ -1,0 +1,141 @@
+# Calculadora em C
+ 
+# Disciplina
+
+Desenvolvimento de Algoritmos e Pensamento Computacional
+
+# Estudante
+
+Arthur Ribeiro
+
+# Descrição do projeto
+
+Este projeto consiste no desenvolvimento de uma calculadora em linguagem C, criada como atividade prática da disciplina de Desenvolvimento de Algoritmos e Pensamento Computacional.
+
+O programa apresenta um menu interativo que permite ao usuário escolher entre 20 diferentes operações matemáticas.
+
+O projeto foi desenvolvido com o objetivo de aplicar conceitos fundamentais de programação, como variáveis, entrada e saída de dados, funções, estruturas condicionais, estruturas de repetição, modularização e utilização da biblioteca matemática math.h.
+
+# Objetivo
+
+Desenvolver uma calculadora funcional e organizada em linguagem C, utilizando funções específicas para cada operação matemática.
+
+A atividade também tem como objetivo desenvolver o raciocínio lógico e computacional por meio da criação, organização e execução de algoritmos.
+
+# Funcionalidades
+
+A calculadora possui as seguintes 20 operações:
+
+Nº	Operação	Função
+1	Soma	somar()
+2	Subtração	subtrair()
+3	Multiplicação	multiplicar()
+4	Divisão	dividir()
+5	Potenciação	potencia()
+6	Raiz quadrada	raizQuadrada()
+7	Raiz cúbica	raizCubica()
+8	Seno	seno()
+9	Cosseno	cosseno()
+10	Tangente	tangente()
+11	Logaritmo natural	logaritmoNatural()
+12	Logaritmo base 10	logaritmoBase10()
+13	Valor absoluto	valorAbsoluto()
+14	Porcentagem	porcentagem()
+15	Média aritmética	mediaAritmetica()
+16	Graus para radianos	grausParaRadianos()
+17	Radianos para graus	radianosParaGraus()
+18	Área do círculo	areaCirculo()
+19	Área do retângulo	areaRetangulo()
+20	Hipotenusa	calcularHipotenusa()
+
+# Conceitos de programação utilizados
+Variáveis e tipos de dados
+
+O programa utiliza variáveis dos tipos int, double e char.
+
+O tipo double é utilizado principalmente para armazenar números e resultados que podem possuir casas decimais.
+
+Entrada e saída de dados
+
+A entrada de informações é realizada utilizando:
+
+scanf()
+
+A apresentação das informações ao usuário é realizada utilizando:
+
+printf()
+Funções
+
+Cada operação matemática foi implementada em uma função específica.
+
+Por exemplo:
+
+double somar(double a, double b) {
+    return a + b;
+}
+
+Essa organização facilita a leitura, manutenção e reutilização do código.
+
+Estrutura condicional
+
+Foi utilizada a estrutura:
+
+switch
+
+juntamente com diferentes:
+
+case
+
+para permitir que o usuário selecione a operação desejada no menu.
+
+Também foram utilizados comandos if e else para realizar tratamentos de erros.
+
+Estrutura de repetição
+
+A calculadora utiliza:
+
+do {
+    ...
+} while (...);
+
+Dessa forma, o programa pode executar várias operações consecutivamente sem precisar ser reiniciado.
+
+O usuário pode escolher realizar uma nova operação ou encerrar a calculadora.
+
+# Biblioteca math.h
+
+A biblioteca:
+
+#include <math.h>
+
+é utilizada para realizar diversas operações matemáticas.
+
+Entre as funções utilizadas estão:
+
+pow() — potenciação;
+sqrt() — raiz quadrada;
+cbrt() — raiz cúbica;
+sin() — seno;
+cos() — cosseno;
+tan() — tangente;
+log() — logaritmo natural;
+log10() — logaritmo base 10;
+fabs() — valor absoluto;
+hypot() — cálculo da hipotenusa;
+M_PI — constante matemática π.
+# Tratamento de erros
+
+O programa possui tratamentos básicos para evitar resultados inválidos.
+
+Entre eles:
+
+divisão por zero;
+raiz quadrada de número negativo;
+logaritmo de número menor ou igual a zero;
+tangente em ângulos onde ela é indefinida;
+raio negativo;
+dimensões negativas;
+catetos negativos;
+opção inexistente no menu.
+
+Quando uma operação inválida é identificada, o programa apresenta uma mensagem de erro ao usuário.
