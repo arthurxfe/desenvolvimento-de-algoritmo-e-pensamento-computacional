@@ -1,3 +1,0 @@
-# desenvolvimento de algoritmo e pensamento computacional
-
-Disciplina voltada ao desenvolvimento do raciocínio lógico e computacional, abordando conceitos fundamentais de algoritmos, estruturas de controle, variáveis, operadores, funções e resolução de problemas. Trabalha a criação, análise e implementação de algoritmos utilizando linguagens de programação, com foco no desenvolvimento da capacidade de pensar de forma lógica, organizada e eficiente para solucionar problemas computacionais.
