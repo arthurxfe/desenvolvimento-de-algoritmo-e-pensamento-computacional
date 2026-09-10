@@ -16,7 +16,7 @@
 
 #include <stdio.h>
 
-/* ---------- Protótipos das funções de conversão ---------- */
+/* --------- Protótipos das funções de conversão --------- */
 float celsiusParaFahrenheit(float celsius);
 float celsiusParaKelvin(float celsius);
 float fahrenheitParaCelsius(float fahrenheit);
